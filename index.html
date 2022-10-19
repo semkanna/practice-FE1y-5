@@ -5,66 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style/styles.css">
+    <link rel="stylesheet" href="/npm/modern-normalize@1.1.0/modern-normalize.css">
+    <link rel="stylesheet" href="./style/reset.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/styles.css">
 </head>
 <body>
     <!-- секція хедер -->
     <header class="header-section">
-        <nav class="navigation-header">
-            <ul class="header-list">
-                <li class="header-item">
-                    <a href="/" class="header-link">LIFESTYLE</a>
-                </li>
-                <li class="header-item">
-                    <a href="/" class="header-link">PHOTODIARY</a>
-                </li>
-                <li class="header-item"><a href="/" class="header-link">MUSIC</a>
-                </li>
-                <li class="header-item"><a href="/" class="header-link">TRAVEL</a>
-                </li>
-            </ul> 
-        </nav>
+<div class="container">
+    <nav class="navigation-header">
+        <ul class="header-list">
+            <li class="header-item">
+                <a href="/" class="header-link">LIFESTYLE</a>
+            </li>
+            <li class="header-item">
+                <a href="/" class="header-link">PHOTODIARY</a>
+            </li>
+            <li class="header-item"><a href="/" class="header-link">MUSIC</a>
+            </li>
+            <li class="header-item"><a href="/" class="header-link">TRAVEL</a>
+            </li>
+        </ul> 
+    </nav>
+</div>
 </header>
 <!-- MAIN -->
-    <main class="main-section">
-        <ul main="">
-            <li class="card-main">
-                <img src="./images/1.jpg" alt="girl">
-                <p class="card-title">LIFESTYLE</p>
-                <h2  class="main-chapter">Life tastes better with coffee</h2>
-                <p class="main-tekst">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
-            </li>
-            <li><img src="images/2.jpg" alt="girl in a hat and with honor">
-                <p  class="card-title">PHOTODAIRY</p>
-                <h2  class="main-chapter">American dream</h2>
-                <p class="main-tekst">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
-            </li>
-            <li>
-                <img src="./images/3.jpg" alt="girls sit">
-                <p  class="card-title">PHOTODAIRY</p>
-                <h2  class="main-chapter">A day exploring the Alps</h2>
-                <p class="main-tekst">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
-            </li>
-            <li>
-                <img src="./images/4.jpg" alt="boy">
-                <p  class="card-title">LIFESTYLE</p>
-                <h2  class="main-chapter">American dream</h2>
-                <p class="main-tekst">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
-            </li>
-            <li><img src="./images/5.jpg" alt="tea">
-                <p  class="card-title">LIFESTYLE</p>
-                <h2  class="main-chapter">Top 10 song for running</h2>
-                <p class="main-tekst">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
-            </li>
-                <li>
-                    <img src="./images/6.jpg" alt="road">
-                    <p class="card-title">LIFESTYLE</p>
-                    <h2 class="main-chapter">Top 10 song for running</h2>
-                    <p class="main-tekst">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+    <main class="card-section">
+        <div class="container">
+            <ul class="card-list">
+                <li class="card-item">
+                    <img src="./images/1.jpg" alt="girl">
+                    <p class="card-description">LIFESTYLE</p>
+                    <h2  class="card-title">Life tastes better with coffee</h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
                 </li>
-        </ul> 
+                <li class="card-item">
+                    <img src="images/2.jpg" alt="girl in a hat and with honor">
+                    <p  class="card-description">PHOTODAIRY</p>
+                    <h2  class="card-title">American dream</h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                </li>
+                <li class="card-item">
+                    <img src="./images/3.jpg" alt="girls sit">
+                    <p  class="card-description">PHOTODAIRY</p>
+                    <h2  class="card-title">A day exploring the Alps</h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                </li>
+                <li class="card-item">
+                    <img src="./images/4.jpg" alt="boy">
+                    <p  class="card-description">LIFESTYLE</p>
+                    <h2  class="card-title">American dream</h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                </li>
+                <li class="card-item">
+                    <img src="./images/5.jpg" alt="tea">
+                    <p  class="card-description">LIFESTYLE</p>
+                    <h2  class="card-title">Top 10 song for running</h2>
+                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                </li>
+                    <li class="card-item">
+                        <img src="./images/6.jpg" alt="road">
+                        <p class="card-description">LIFESTYLE</p>
+                        <h2 class="card-title">Top 10 song for running</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea.</p>
+                    </li>
+            </ul> 
+            <button type="button" class="button">Load more</button>
+        </div>
+   
     </main>
-    <button type="button" class="button">Load more</button>
 </body>
 </html>

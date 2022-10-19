@@ -1,7 +1,4 @@
-a 
-{
-   text-decoration:none   
-}
+/* header */
 .header-link
 {
     font-family: 'Playfair Display';
@@ -15,7 +12,25 @@ color: #7D7D7D;
 {
     color: #03A9F4;
 }
-.card-title
+.header-list {
+    display: flex;
+   justify-content: center;
+   display: flex;
+   flex-wrap: wrap;
+}
+ .header-item {
+    margin-left: 99px;
+ }
+
+ .header-item:first-child {
+margin-left: 0;
+ }
+ .header-section {
+    padding-top:71px ;
+    padding-bottom: 92px ;
+ }
+/* карточки */
+.card-description
 {
     font-family: 'Ubuntu';
 font-style: normal;
@@ -23,8 +38,10 @@ font-weight: 300;
 font-size: 14px;
 line-height: 16px;
 color: #B4AD9E;
+margin-top: 62px;
+margin-bottom: 32px;
 }
-.main-chapter
+.card-title
 {
     font-family: 'Playfair Display';
 font-style: normal;
@@ -32,8 +49,9 @@ font-weight: 400;
 font-size: 30px;
 line-height: 40px;
 color: #626262;
+margin-bottom: 40px;
 }
-.main-tekst
+.card-text
 {
     font-family: 'Playfair Display';
     font-style: normal;
@@ -42,12 +60,47 @@ color: #626262;
     line-height: 19px;
     color: #626262;   
 }
-.button
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+     }
+    
+     .card-item {
+        width: 420px;
+        margin-right: 65px;
+        margin-bottom: 130px;
+    
+     }
+    
+     .card-item:nth-child(2n) {
+        margin-right: 0;
+     }
+     .card-item:nth-last-child(n-2) {
+    margin-bottom: 94px;
+     }
+    /* кнопка */
+ .button
 {
     font-family: 'Playfair Display';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
-    color: #626262;  
+    color: #626262;
+    display: block; 
+margin-left: auto;
+margin-right: auto;
+padding: 20px 49px 21px 48px;
+margin-bottom: 66px;
 }
+
+
+
+
+
+ 
+
+
+
+
